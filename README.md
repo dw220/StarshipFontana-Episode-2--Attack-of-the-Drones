@@ -18,7 +18,7 @@ in the directory run the following commands to compile and start
 the game
 
 `$ g++ -c -std=c++11 src/*.cpp`
-`$ g++ -o starship src/Main.o -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer`
+`$ g++ -o StarshipFontana *.o -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf`
 
 which will produce an executable file called "starship" in the
 top-level directory.  To execute this file do the following
