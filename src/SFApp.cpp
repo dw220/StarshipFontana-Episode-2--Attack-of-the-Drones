@@ -61,7 +61,7 @@ const int COIN = 10;
 srand(time(0));// call to randomise spawn
 for(int c = 0; c < COIN; c++){
 
-int coinWidth = rand()% 400;//random spawn for coin, selects random number between 0 and 400
+int coinWidth = rand()% 500;//random spawn for coin, selects random number between 0 and 400
 int coinHeight =rand()% 351 +100;//random spawn for coin, between 1 and 350 then adds 100 to ensure not on static barriers.
   auto coin = make_shared<SFAsset>(SFASSET_COIN);
   auto pos  = Point2(coinWidth, coinHeight);
