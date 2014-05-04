@@ -17,7 +17,7 @@ ifstream score("assets/score.txt");//bring in the file
      score >> Highscore; // add the line of score.txt to the Highscore variable
     	
           
-                  // If your the score held in text file is less than your score, you have achived a new higherscore
+// If your the score held in text file is less than your score, you have achived a new higherscore
                  if ( Highscore < yourScore){
 		         cout << "******************Congratulations on finishing the game******************"<< endl;
 			 cout << "**************************************************************************" << endl;
@@ -28,7 +28,7 @@ ifstream score("assets/score.txt");//bring in the file
                          myfile.close(); //close the file once the new int has been stored
                   }
 
-                 //Checking if the users current score the same as score in the txt folder. If so then the user will be informed they are joint top with the max score.
+//Checking if the users current score the same as score in the txt folder. If so then the user will be informed they are joint top with the max score.
                  else if(yourScore == 1000 && yourScore == Highscore){
 		         cout << "******************Congratulations on finishing the game******************"<< endl;
 			 cout << "**************************************************************************" << endl;
