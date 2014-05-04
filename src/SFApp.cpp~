@@ -211,6 +211,11 @@ for(auto h : house){
  
 
 
+for(auto c : coins){
+if(player->CollidesWith(c);
+
+
+}
 
 if(totalKilled == 1000){ // if player has reached the max score of 1000 then highscore feature enabled to end game
 theScore(totalKilled);

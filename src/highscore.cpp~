@@ -55,5 +55,13 @@ ifstream score("assets/score.txt");//bring in the file
           
       }
 
+     
+
+      
+      
+     
+    
+   // close score.txt file
+  
 
 
