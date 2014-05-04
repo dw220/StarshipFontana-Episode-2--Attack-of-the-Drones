@@ -23,7 +23,7 @@ the game
 which will produce an executable file called "starship" in the
 top-level directory.  To execute this file do the following
 
-`$ ./starship`
+`$./starship`
  
 from the top-level directory.  The game will expect to find the
 `assets` directory under its current working directory.
